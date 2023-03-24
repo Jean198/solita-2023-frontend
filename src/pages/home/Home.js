@@ -14,10 +14,10 @@ const Home = () => {
           </h4>
         </div>
         <div className='row buttons-div'>
-          <Link to='/trips'>
+          <Link to='/dashboard'>
             <div className='btn btn-lg btn-dark button'>Visitor</div>
           </Link>
-          <Link to='/stations'>
+          <Link to='/login'>
             <div className='btn btn-lg button btn-dark mt-3'>Admin</div>
           </Link>
         </div>
