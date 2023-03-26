@@ -11,7 +11,12 @@ const Login = () => {
           <AiFillLock size='30' className='mb-4 ' />
 
           <form>
-            <input type='text' placeholder='Email' name='email' value='' />
+            <input
+              type='text'
+              placeholder='Username'
+              name='username'
+              value=''
+            />
             <input type='password' placeholder='Password' name='password' />
             <button>Login</button>
             <p className='message'>

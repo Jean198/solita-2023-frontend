@@ -1,0 +1,17 @@
+.header {
+  background-color: #ffa500;
+  min-width: 100% !important;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .header {
+    justify-content: right;
+  }
+
+  .title {
+    margin-right: 5rem;
+  }
+}
