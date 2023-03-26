@@ -11,7 +11,7 @@ const Humburger = () => {
   };
   return (
     <div class='menu-toggle' onClick={handleMenu}>
-      <div class='hamburger' onClick={handleMenu}>
+      <div class='hamburger'>
         <span></span>
       </div>
     </div>

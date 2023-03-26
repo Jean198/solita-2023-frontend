@@ -4,7 +4,7 @@ import './main.css';
 
 const Main = ({ children }) => {
   return (
-    <div className='main'>
+    <div className='main-content'>
       <Header />
       <div className='content'>
         This is Content Lorem, ipsum dolor sit amet consectetur adipisicing

@@ -3,7 +3,6 @@
   background-size: cover;
   min-height: 100vh;
   background-position: bottom;
-  color: white;
 }
 
 main {
@@ -15,6 +14,7 @@ main {
 .home-page h1 {
   font-weight: 900;
   font-size: 4rem;
+  color: white !important;
 }
 
 .homepage-title {

@@ -6,6 +6,20 @@
   height: 100vh;
 }
 
+.sidebar-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-icon {
+  cursor: pointer;
+}
+.home-icon:hover {
+  color: #f1f5f8;
+}
+
 .navlinks-container {
   display: flex;
   flex-direction: column;
@@ -20,6 +34,10 @@
   color: #102a42;
   margin-left: 2rem;
   font-size: 1.5rem;
+}
+
+.navlink:hover {
+  color: #f1f5f8;
 }
 @media (max-width: 768px) {
   .sidebar {

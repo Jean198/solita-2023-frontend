@@ -1,7 +1,7 @@
-.main {
+.main-content {
   flex: 1 1 0;
   padding: 0;
-  background-color: #f1f5f8;
+  background-color: #f1f5f8 !important;
 }
 
 .content {

@@ -3,12 +3,23 @@
   min-width: 100% !important;
   padding: 2rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: right;
+}
+.title {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.user-container {
+  margin-left: 1rem;
+  font-size: 20px !important;
 }
 
 @media (max-width: 768px) {
   .header {
-    justify-content: right;
+    justify-content: space-between;
   }
 
   .title {
